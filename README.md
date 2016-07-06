@@ -1,18 +1,23 @@
 [Smartling Translation API PHP SDK](http://docs.smartling.com)
 ==================================
 
-This is an optimized and refactored version of https://github.com/Smartling/api-sdk-php/ with the following changes/additions:
+**NOTE/UPDATE:** After submitting this initiative to Smartling, they have made use of it to make an official composer/guzzle 2.0 SDK which you should check out. https://github.com/Smartling/api-sdk-php/tree/2.0.0
 
-- Composer based with PSR2 coding standards
-- Improved curl connection system (rewritten into decoupled composer dependency)
+Description
+-----------
+This is an optimized and refactored version of the original 1.1 Smartling Api SDK with the following changes/additions:
+
+- Converted to a composer project
+- PSR2 coding standards
+- Decoupled curl connection system as a dependency
 - Fixed several bugs/issues
 - Upload times improved greatly
 - Added simple upload method that uploads arrays directly
 - Added ContentBuilder which converts arrays into the expected json format
 
 
-Description
------------
+Original Description
+--------------------
 
 This repository contains the PHP SDK for accessing the Smartling Translation API.
 
@@ -35,6 +40,5 @@ Simply add the following to your composer file and do a composer update:
 ```
 
 
-For example of usage have a look at examples folder.
+For example of usage have a look at the examples folder.
 
-For more information or to report an issue go to https://github.com/Smartling/api-sdk-php/
